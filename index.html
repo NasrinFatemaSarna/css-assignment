@@ -1,42 +1,31 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Foodies</title>
   <link rel="icon" href="./image/Foodieslogo.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
- <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-
-
-
-<!-- navbar start -->
+<!-- NAVBAR -->
 <nav id="navbar">
   <div class="container">
     <div class="navbar_parent">
-
-      <!-- LOGO -->
       <a href="#" class="logo">
-        <img src="./image/Foodieslogo.png" alt="logo">
+        <img src="./image/Foodieslogo.png" alt="Foodies logo">
       </a>
 
-      <!-- Hidden checkbox -->
+      <!-- hidden checkbox -->
       <input type="checkbox" id="nav-toggle">
-
-      <!-- Hamburger -->
-      <label for="nav-toggle" class="hamburger">
+      <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
         <i class="fa-solid fa-bars"></i>
       </label>
 
-      <!-- Menu -->
       <ul class="nav-list">
         <li><a href="#" class="active">Home</a></li>
         <li><a href="#">About Us</a></li>
@@ -44,254 +33,217 @@
         <li><a href="#">Our Company</a></li>
         <li><a href="#">Pages</a></li>
       </ul>
-
     </div>
   </div>
 </nav>
-<!-- navbar end -->
-<!-- Banner Section Start -->
-  <section id="banner">
-    <div class="container">
-      <div class="banner_text">
-        <h1>We're Serious <br> For Food.</h1>
-        <p>
-          We strive to provide a space where guests can connect with <br>
-          themselves and explore their full potential, offering a safe place.
-        </p>
-        <a href="#" class="btn">Get Started →</a>
-      </div>
 
-      <div class="banner_image">
-        <img src="./image/hero-Image.png" alt="Hero Image" class="main-img">
-        <img src="./image/Ratings-left.png" alt="Ratings Image" class="left-img">
-        <img src="./image/Good Quality Product.png" alt="Good Quality Image" class="right-img">
-        <img src="./image/Polcadot-bottom.png" alt="Polcadot Image" class="bottom-img">
-      </div>
+<!-- HERO -->
+<section id="banner">
+  <div class="container">
+    <div class="banner_text">
+      <h1>We're Serious <br> For Food.</h1>
+      <p>
+        We strive to provide a space where guests can connect with <br>
+        themselves and explore their full potential, offering a safe place.
+      </p>
+      <a href="#" class="btn">Get Started →</a>
     </div>
-  </section>
-  <!-- Banner Section End -->
 
-    <!-- brand and box start-->
-  <section class="container ">
-   <div class="container-brand" >
-      <div class="brand_logo">
-      <img src="./image/brandlogo1.png" alt="logo_icon">
-      <div class="brand_name">
-        <img src="./image/brandname.png" alt="brand_name">
-      </div>
+    <div class="banner_image">
+      <img src="./image/hero-Image.png" alt="Hero" class="main-img">
+      <img src="./image/Ratings-left.png" alt="Ratings" class="left-img">
+      <img src="./image/Good Quality Product.png" alt="Good Quality Product" class="right-img">
+      <img src="./image/Polcadot-bottom.png" alt="Polka dots" class="bottom-img">
+    </div>
+  </div>
+</section>
+
+<!-- BRAND STRIP -->
+<section class="container">
+  <div class="container-brand">
+    <div class="brand_logo">
+      <img src="./image/brandlogo1.png" alt="Brand icon">
+      <div class="brand_name"><img src="./image/brandname.png" alt="Brand name"></div>
     </div>
     <div class="brand_logo">
-      <img src="./image/brandlogo2.png" alt="logo_icon">
-      <div class="brand_name">
-        <img src="./image/brandname.png" alt="brand_name">
-      </div>
+      <img src="./image/brandlogo2.png" alt="Brand icon">
+      <div class="brand_name"><img src="./image/brandname.png" alt="Brand name"></div>
     </div>
     <div class="brand_logo">
-      <img src="./image/brandlogo3.png" alt="logo_icon">
-      <div class="brand_name">
-        <img src="./image/brandname.png" alt="brand_name">
-      </div>
+      <img src="./image/brandlogo3.png" alt="Brand icon">
+      <div class="brand_name"><img src="./image/brandname.png" alt="Brand name"></div>
     </div>
-   </div>
- </section>
+  </div>
+</section>
 
-  <section class="box-card-container">
-    <div class="box-card">
-      <div class="box">
+<!-- INFO BOXES -->
+<section class="box-card-container">
+  <div class="box-card">
+    <div class="box">
       <span class="icon"><i class="ri-truck-line"></i></span>
       <div class="copy">
-        <h4>Free Shipping</h4>
-        <p>Orders over $140</p>
+        <h4>Free Shipping</h4><p>Orders over $140</p>
       </div>
     </div>
     <div class="box">
       <span class="icon"><i class="ri-wallet-line"></i></span>
       <div class="copy">
-        <h4>Quick Payment</h4>
-        <p>100% secure payment</p>
+        <h4>Quick Payment</h4><p>100% secure payment</p>
       </div>
     </div>
     <div class="box">
       <span class="icon"><i class="ri-percent-line"></i></span>
       <div class="copy">
-        <h4>Special Promo</h4>
-        <p>Get special promo</p>
+        <h4>Special Promo</h4><p>Get special promo</p>
       </div>
     </div>
     <div class="box">
       <span class="icon"><i class="ri-headphone-line"></i></span>
       <div class="copy">
-        <h4>24/7 Support</h4>
-        <p>Ready support</p>
+        <h4>24/7 Support</h4><p>Ready support</p>
       </div>
     </div>
-    </div>
-  </section>
-  
-  <!-- brand and box end-->
+  </div>
+</section>
 
-    <!-- our benefit section start -->
-  <section class="container-benefit">
-    <div class="benefit">
-      <div class="benefit-left">
-        <div class="benefit-image">
-          <img src="./image/benefit-Image.png" alt="Healthy foods arranged on a board">
-        </div>
-      </div>
-   <div class="benefit-content">
-        <p class="subtitle">Our Benefit</p>
-        <div class="heading-wrap">
-          <h2 class="title">The More Healthy<br>Food The Better</h2>
-          <span class="dots" aria-hidden="true"></span>
-        </div>
-        <ul class="checklist">
-          <li>Be Alive With Veggie Food.</li>
-          <li>It’s The Place To Be.</li>
-          <li>Nonstop Veggie Food</li>
-          <li>The Best Silk Dish In Town</li>
-          <li>Truffles, Egg &amp; Pumpkin Spice</li>
-        </ul>
+<!-- BENEFIT -->
+<section class="container-benefit">
+  <div class="benefit">
+    <div class="benefit-left">
+      <div class="benefit-image">
+        <img src="./image/benefit-Image.png" alt="Healthy foods">
       </div>
     </div>
-  </section>
-  <!-- our benefit section end -->
-<!-- our stars section start -->
+    <div class="benefit-content">
+      <p class="subtitle">Our Benefit</p>
+      <div class="heading-wrap">
+        <h2 class="title">The More Healthy<br>Food The Better</h2>
+        <span class="dots" aria-hidden="true"></span>
+      </div>
+      <ul class="checklist">
+        <li>Be Alive With Veggie Food.</li>
+        <li>It’s The Place To Be.</li>
+        <li>Nonstop Veggie Food</li>
+        <li>The Best Silk Dish In Town</li>
+        <li>Truffles, Egg &amp; Pumpkin Spice</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- STARS -->
 <section class="container-stars-section">
-  <!-- Left content -->
   <div class="stars-content">
     <p class="subtitle">Our Stars</p>
-    <h2 class="title">
-      Veggie Food Goes<br>
-      On And Always On
-    </h2>
+    <h2 class="title">Veggie Food Goes<br>On And Always On</h2>
 
     <div class="stats">
-      <div class="stat-item">
-        <h3>1,500</h3>
-        <p>Sold Product</p>
-      </div>
-      <div class="stat-item">
-        <h3>500</h3>
-        <p>Positive Feedback</p>
-      </div>
-      <div class="stat-item">
-        <h3>400</h3>
-        <p>Official Store</p>
-      </div>
+      <div class="stat-item"><h3>1,500</h3><p>Sold Product</p></div>
+      <div class="stat-item"><h3>500</h3><p>Positive Feedback</p></div>
+      <div class="stat-item"><h3>400</h3><p>Official Store</p></div>
     </div>
 
     <a href="#" class="promo-btn">Get Special Promo →</a>
   </div>
 
-  <!-- Right image box -->
   <div class="stars-right">
     <div class="stars-image">
       <img src="./image/startsImage.png" alt="Green juice">
     </div>
   </div>
 </section>
-<!-- our stars section end -->
 
-  <!-- features start -->
-  <section class="container-features">
-    <p class="subtitle">Our Features</p>
-    <h2 class="title">Variety Of Foods</h2>
+<!-- FEATURES -->
+<section class="container-features">
+  <p class="subtitle">Our Features</p>
+  <h2 class="title">Variety Of Foods</h2>
 
-    <div class="features-grid">
-      <div class="feature-card image" style="--bg:url('./image/featureImage1.png');"></div>
-      <article class="feature-card text">
-        <h3>Veggies Are Forever</h3>
-        <p>We offer the following <br> services</p>
-        <a href="#" class="link-btn">Discover Now →</a>
-      </article>
-      <div class="feature-card image" style="--bg:url('./image/featureImage2.png');"></div>
-      <article class="feature-card text">
-        <h3>Good For Your Skin</h3>
-        <p>We offer the following <br> services</p>
-        <a href="#" class="link-btn">Discover Now →</a>
-      </article>
+  <div class="features-grid">
+    <div class="feature-card image" style="--bg:url('./image/featureImage1.png');"></div>
+    <article class="feature-card text">
+      <h3>Veggies Are Forever</h3>
+      <p>We offer the following <br> services</p>
+      <a href="#" class="link-btn">Discover Now →</a>
+    </article>
+    <div class="feature-card image" style="--bg:url('./image/featureImage2.png');"></div>
+    <article class="feature-card text">
+      <h3>Good For Your Skin</h3>
+      <p>We offer the following <br> services</p>
+      <a href="#" class="link-btn">Discover Now →</a>
+    </article>
 
-      <article class="feature-card text">
-        <h3>Veggie Food Groove</h3>
-        <p>We offer the following <br> services</p>
-        <a href="#" class="link-btn">Discover Now →</a>
-      </article>
-      <div class="feature-card image" style="--bg:url('./image/featureImage3.png');"></div>
-      <article class="feature-card text">
-        <h3>That Comes Close</h3>
-        <p>We offer the following <br> services</p>
-        <a href="#" class="link-btn">Discover Now →</a>
-      </article>
-      <div class="feature-card image" style="--bg:url('./image/featureImage4.png');"></div>
+    <article class="feature-card text">
+      <h3>Veggie Food Groove</h3>
+      <p>We offer the following <br> services</p>
+      <a href="#" class="link-btn">Discover Now →</a>
+    </article>
+    <div class="feature-card image" style="--bg:url('./image/featureImage3.png');"></div>
+    <article class="feature-card text">
+      <h3>That Comes Close</h3>
+      <p>We offer the following <br> services</p>
+      <a href="#" class="link-btn">Discover Now →</a>
+    </article>
+    <div class="feature-card image" style="--bg:url('./image/featureImage4.png');"></div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="container-product">
+  <p class="subtitle">Our Product</p>
+  <h2 class="title">Most Popular Product</h2>
+
+  <div class="product-list">
+    <div class="product-card">
+      <img src="./image/productImage1.png" alt="Summer Veganie">
+      <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+      <h3>Summer Veganie</h3>
+      <p class="price"><span>$25</span> $29</p>
+      <a href="#" class="btn">Buy Now <i class="ri-arrow-right-line"></i></a>
     </div>
-  </section>
-  <!-- features end -->
-     <!-- products start -->
-  <section class="container-product">
-    <p class="subtitle">Our Product</p>
-    <h2 class="title">Most Popular Product</h2>
 
-    <div class="product-list">
-      <div class="product-card">
-        <img src="./image/productImage1.png" alt="Summer Veganie">
-        <div class="stars">
-          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-        </div>
-        <h3>Summer Veganie</h3>
-        <p class="price"><span>$25</span> $29</p>
-        <a href="#" class="btn">Buy Now <i class="ri-arrow-right-line"></i></a>
-      </div>
-
-      <div class="product-card">
-        <img src="./image/product Image2.png" alt="Greanie Seafood">
-         <div class="stars">
-          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-        </div>
-        <h3>Greanie Seafood</h3>
-       <p class="price"><span>$25</span> $29</p>
-        <a href="#" class="btn">Buy Now <i class="ri-arrow-right-line"></i></a>
-      </div>
-
-      <div class="product-card">
-        <img src="./image/productImage3.png" alt="Fresh Vegetable">
-        <div class="stars">
-          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-        </div>
-        <h3>Fresh Vegetable</h3>
-        <p class="price"><span>$25</span> $29</p>
-        <a href="#" class="btn">Buy Now <i class="ri-arrow-right-line"></i></a>
-      </div>
-
-      <div class="product-card">
-        <img src="./image/productImage4.png" alt="Fresh Meatyus">
-        <div class="stars">
-          <i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i>
-        </div>
-        <h3>Fresh Meatyus</h3>
-        <p class="price"><span>$25</span> $29</p>
-        <a href="#" class="btn">Buy Now <i class="ri-arrow-right-line"></i></a>
-      </div>
+    <div class="product-card">
+      <img src="./image/productImage2.png" alt="Greanie Seafood">
+      <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+      <h3>Greanie Seafood</h3>
+      <p class="price"><span>$25</span> $29</p>
+      <a href="#" class="btn">Buy Now <i class="ri-arrow-right-line"></i></a>
     </div>
-  </section>
-  <!-- products end -->
-  <!-- hero start-->
-  <section class="container-hero">
-    <div class="hero">
-      <div class="hero-content">
-        <h1>Veggie Foods? Ingredients<br>You Want To Try</h1>
-        <a href="#" class="btn">Get Started <i class="ri-arrow-right-line"></i></a>
-      </div>
+
+    <div class="product-card">
+      <img src="./image/productImage3.png" alt="Fresh Vegetable">
+      <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+      <h3>Fresh Vegetable</h3>
+      <p class="price"><span>$25</span> $29</p>
+      <a href="#" class="btn">Buy Now <i class="ri-arrow-right-line"></i></a>
     </div>
-  </section>
-  <!-- hero section end -->
-  <!-- footer -->
-   <footer class="footer">
+
+    <div class="product-card">
+      <img src="./image/productImage4.png" alt="Fresh Meatyus">
+      <div class="stars"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></div>
+      <h3>Fresh Meatyus</h3>
+      <p class="price"><span>$25</span> $29</p>
+      <a href="#" class="btn">Buy Now <i class="ri-arrow-right-line"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA HERO -->
+<section class="container-hero">
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Veggie Foods? Ingredients<br>You Want To Try</h1>
+      <a href="#" class="btn">Get Started <i class="ri-arrow-right-line"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
   <div class="container-footer">
-  <!-- Logo & Description -->
     <div class="footer-box-left">
       <div class="logo">
-        <img src="./image/Foodieslogo.png" alt="footer_logo">
-        <p>Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, sed do <br> eiusmod tempor</p>
+        <img src="./image/Foodieslogo.png" alt="Footer logo">
+        <p>Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit, sed do<br>eiusmod tempor</p>
         <div class="socials">
           <i class="ri-facebook-fill"></i>
           <i class="ri-instagram-line"></i>
@@ -300,7 +252,6 @@
       </div>
     </div>
 
-    <!-- About Us -->
     <div class="footer-box-right">
       <h3>About Us</h3>
       <ul>
@@ -311,7 +262,6 @@
       </ul>
     </div>
 
-    <!-- Company -->
     <div class="footer-box-right">
       <h3>Company</h3>
       <ul>
@@ -322,50 +272,20 @@
       </ul>
     </div>
 
-    <!-- Get in touch -->
     <div class="footer-box-right">
       <h3>Get in touch</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
-
       <form class="subscribe">
         <input type="email" placeholder="Email">
         <button type="submit">Subscribe</button>
       </form>
     </div>
-
-  </div> 
+  </div>
 
   <div class="footer-bottom">
     <p>Copyright © 2021 Foodies.</p>
   </div>
-
 </footer>
-
-
 
 </body>
 </html>
-
-
-
-
-
-
- 
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
